@@ -1,0 +1,34 @@
+Pour activer un dossier comme repository Git, il suffit de se placer dans ce dossier avec le Terminal puis d'utiliser la commande git init. 
+
+Pour gérer un repository, Git génère un index de tous les fichiers dont il doit faire le suivi. Lorsque vous créez un fichier dans un repository, vous devez donc l'ajouter à l'index Git à l'aide de la commande git add nomDeVotreFichier.extension.
+
+Réaliser un commit: git commit -m "message permis grâce à -m"
+
+Grâce à la commande  git log qui vous affiche la liste de tous les commits que vous avez réalisés.
+
+Pour se positionner à un commit donné: git checkout shaCommit (longue chaine en héxa)
+
+Pour revenir à la branche principale: git checkout master
+
+Créer un nouveau commit qui fait l'inverse du précédent: git revert shaCommit (!: créer un new commit)
+
+Modifier le message du dernier commit: git commit --amend -m "new msg"
+
+Annuler tous les changements n'ont commité: git reset --hard
+
+Récupérer à l'endroit où le terminal a été ouvert un repository (l'url est un exemple): git clone https://github.com/mozfr/Presentation_MozFR.git
+
+Pour envoyer des fichiers sur le repository GitHub, placer le terminal dans le clone du repository, ajouter les fichiers à l'index et utiliser la commande: git push origin master
+
+Pour récupérer les dernières modifications du repository: git pull origin master
+
+
+
+
+En vracs:
+
+git-status - Show the working tree status
+
+git-log - Show commit logs
+
+

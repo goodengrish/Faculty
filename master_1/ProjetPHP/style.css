@@ -1,0 +1,93 @@
+body{
+	padding-top: 10px;
+	background-color:#2B292F;
+}
+
+[class*="col"]{
+	line-height: 40px;
+	text-align: center;
+	color:white;
+}
+
+[class*="glyphicon"]{
+	margin-left: 15px;
+	font-size: 14px;
+}
+
+[class*="btn"]{
+	width:200px;
+	margin-top:5px;
+}
+
+[class*="modal-content"]{
+	background-color:#2B292F;
+	color:#CEC5BC;
+}
+
+#jumbo{
+	width:900px;
+	height:300px;
+	margin-left:500px;
+	background-color:#2B292F;
+	color:white;
+}
+
+#titre{
+	color:white;
+}
+
+input{
+	width:150px;
+	margin-right:500px;
+	color:black;
+}
+
+.container-fluid{
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	color:#CEC5BC;
+}
+
+[class*="jumbotron"]{
+	height:270px;
+}
+
+#one, #two, #three, #four{
+	background-color:#4E4762;
+	color:white;
+	width:800px;
+	margin-left:500px;
+	margin-top:-7px;
+	text-align: center;
+}
+
+#bienvenu{
+	color:white;
+}
+
+@media (min-width: 1000px){
+
+	.container{
+		width:1170px;
+	}
+
+	hr{
+		width:1500px;
+	}
+
+	#menuOptions{
+		height: 175px;
+		width: 240px;
+		margin-left:5px;
+		border:solid;
+	}
+
+	#zoneContenu{
+		height: 850px;
+		width: 800px;
+		margin-left: 365px;
+	}
+
+}

@@ -1,0 +1,36 @@
+Sujet  v1.0
+Présentation du sujet
+
+L'objectif est de créer un outils de bourse en ligne virtuel. Les fonctionnalités attendues sont les suivantes :
+
+    Gestion des différents utilisateurs (état civil, coordonnées bancaires/porte-monnaie virtuel, photo d'avatar, etc.)
+    Gestion du portefeuille (achat/vente virtuelle, graphiques d'évolution de la valorisation du portefeuille, etc.)
+    Gestion des alertes prédéfinies (gestion de seuil, etc.)
+    Tableau de bord paramétrable (différents graphiques sur les cours des marchés préférés, des actions préférés, etc.)
+
+Tous les graphiques doivent être paramétrables (date début/fin, moyenne lissée ou non, pas de temps, etc.). L'ergonomie et les fonctionnalités du site seront une part importante de la note.
+
+Contraintes techniques
+
+L'application 4 tiers devra utiliser les technologies suivantes :
+
+    Côté client JavaScript (sans framework) avec Bootstrap, et jquery + HTML5 + CSS. Pour les graphiques, utilisez une bibliothèque de votre choix (Chart.js, D3.js,...).
+    La partie serveur se fera en PHP 7 (sans framework) et basée sur des services web.
+    La base de donnée sera SQLite3 
+    Pour les différents cours des actions, on utilisera l'API Yahoo Finance (cf. par exemple http://www.jarloo.com/yahoo_finance/). Attention, vous devrez réécrire la communication avec le web-service.
+
+Toute utilisation d'une bibliothèque/API annexe devra être validée par l'enseignant.
+
+Les projets seront stockés sur la forge de l'université et devront être valides l'outil Sonar avec les profils prédéfinis par l'enseignant.
+
+D'un point de vue sécurité, toute injection de code trop aisée ou récupération de la base sera très sévèrement sanctionnée.
+
+Les projets doivent pouvoir tourner sur les machines des salles TP.
+Infos pratiques
+
+    Date de rendu du projet : semaine 10 lors du dernier TP (à définir exactement)
+    Un mini rapport technique (README.md en markdown) devra être constitué reprenant :
+        les choix techniques
+        l'architecture choisie
+        un schéma de la base de donnée
+
